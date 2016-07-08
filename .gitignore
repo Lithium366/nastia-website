@@ -1,0 +1,8 @@
+node_modules
+bower_components
+package.zip
+package
+.idea
+public/dist
+client/dist
+*.log

@@ -1,0 +1,52 @@
+h1, h2, h4 {
+    margin: 0;
+}
+
+* {
+    font-size: 100%;
+}
+
+a {
+    cursor: pointer;
+}
+
+h1 {
+    font: 24pt/30pt 'grand_hotelregular';
+    margin-top: 12px;
+    a,
+    a:hover,
+    a:visited {
+        text-decoration: none;
+        color: $font_gray2;
+    }
+}
+
+h2 {
+    font: 11pt/15pt 'latolight';
+    text-transform: lowercase;
+    margin-top: -6px;
+    color: $font_gray;
+}
+
+h3 {
+    font: 16pt/41pt 'latoblack';
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    color: $font_gray4;
+    position: relative;
+    &:after {
+        content: '';
+        width: 40px;
+        height: 1px;
+        background-color: $font_gray4;
+        position: absolute;
+        bottom: -1px;
+        left: 50%;
+        margin-left: -20px;
+    }
+}
+
+h4 {
+    font: 13pt/20pt 'latoregular';
+    text-transform: uppercase;
+}
