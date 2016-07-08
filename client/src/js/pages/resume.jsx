@@ -17,19 +17,18 @@ const Resume = React.createClass({
                 <div className="content flContainer resume clearfix">
                     <h3>Resume</h3>
                     <ul className="getResumeOptions">
-                        <li><a onClick={this.print} title="Print" className="icon-printer">Print</a></li>
                         <li><a href="/public/static/Anastasia.Sevrugina.resume.pdf" target="_blank" title="Download PDF" className="icon-box-add">Download PDF</a></li>
                     </ul>
                     <div className="summary">
-                        I am very passionate about animation since I was a kid (I dreamed to know how those little characters can be alive on the screen). I learned a lot about animation and now I can say that animation - exactly what I really want to do! My objective is to become a professional character animator. I have a strong understanding of 12 principles of animation, big attention to details and I love to do sketches. I would love to join a creative team  and continue learn and grow as an animator.
+                        I'm a passionate character animator currently live in New York City area. I graduated from Animation Mentor School with a Diploma in Advanced Character Animation Studies in June 2016 and always had a passion for illustration and animation. This is something that I really enjoy to do! I have a strong understanding of principles of animation, solid knowledge of body mechanics and facial expressions, keen eye for details. I would love to join a creative team where I can deliver value, keep learning and grow as a professional animator.
                     </div>
                     <div className="leftColumn">
                         <h4>Education</h4>
                         <div className="resumeItem">
                             <div className="title"><span className="bold">Animation Mentor,</span> The Online Animation School</div>
-                            <div className="date">09/2014 - present</div>
-                            <div className="description">Character Animation Program</div>
-                            <div className="extra">Mentors &mdash; Anthony Wong, Richard Fournier, Ray Ross, Nicole Herr</div>
+                            <div className="date">09/2014 - 06/2016</div>
+                            <div className="description">Certificate of completion in “Character Animation Program”</div>
+                            <div className="extra">Mentored by &mdash; Anthony Wong, Richard Fournier, Ray Ross, Nicole Herr, Dave Burgess, Sean Sexton</div>
                         </div>
                         <div className="resumeItem">
                             <div className="title"><span className="bold">“UI web development”,</span> EPAM Labs</div>
@@ -42,7 +41,7 @@ const Resume = React.createClass({
                             <div className="description">Masters degree in telecommunications</div>
                             <div className="extra">Specialty &mdash; multi-channel telecommunication systems.</div>
                         </div>
-                        <h4>Experience</h4>
+                        <h4>Volunteer Work</h4>
                         <div className="resumeItem">
                             <div className="title"><span className="bold">Animation Mentor Anim Jam project</span></div>
                             <div className="date"> July 2015 – October 2015</div>
@@ -53,10 +52,16 @@ const Resume = React.createClass({
                             <div className="date">fall 2015</div>
                             <div className="description">Volunteer Work <span className="xtr">(Helped students with assignments)</span></div>
                         </div>
+                        <h4>Experience</h4>
                         <div className="resumeItem">
                             <div className="title"><span className="bold">Photobanks</span></div>
                             <div className="date">2011 - present</div>
                             <div className="description">Self employed Microstock Artist, Illustrator, Digital Artist</div>
+                        </div>
+                        <div className="resumeItem">
+                            <div className="title"><span className="bold">Vita Dental Arts</span></div>
+                            <div className="date">2014 - 2016</div>
+                            <div className="description">Dental assistant</div>
                         </div>
                         <div className="resumeItem">
                             <div className="title"><span className="bold">Beltelecom</span> (leading telecommunication company in Belarus)</div>

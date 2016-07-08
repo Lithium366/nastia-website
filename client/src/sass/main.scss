@@ -111,6 +111,9 @@ html, body {
         .rightColumn {
             width: 171px;
         }
+        .leftColumn {
+          max-width: 460px;
+        }
         &.resume {
             position: relative;
             h4 {
