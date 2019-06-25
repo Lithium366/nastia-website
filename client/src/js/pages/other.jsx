@@ -161,7 +161,7 @@ const Other = ({ match }) => {
 }
 
 Other.propTypes = {
-  match: PropTypes.shapeOf(PropTypes.any).isRequired,
+  match: PropTypes.shape(PropTypes.any).isRequired,
 }
 
 export default Other;
