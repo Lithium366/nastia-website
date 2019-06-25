@@ -10,6 +10,10 @@
     "start": "node --harmony app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines" : {
+    "node": "10.14.1",
+    "npm": "6.4.1"
+  },
   "author": "Ilya Sevrugin",
   "license": "ISC",
   "repository": "https://github.com/Lithium366/nastya-website.git",
