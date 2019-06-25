@@ -1,3 +1,5 @@
+const sass = require('node-sass');
+
 module.exports = function(grunt) {
     'use strict';
 
@@ -14,6 +16,7 @@ module.exports = function(grunt) {
         },
         sass: {
             options: {
+                implementation: sass,
                 sourceMap: true
             },
             dist: {
@@ -25,8 +28,8 @@ module.exports = function(grunt) {
         babel: {
             options: {
                 sourceMap: true,
-                plugins: ['transform-react-jsx'],
-                presets: ['es2015', 'react']
+                plugins: ['@babel/plugin-transform-react-jsx'],
+                presets: ['@babel/preset-env', '@babel/preset-react']
             },
             dist: {
                 files: [

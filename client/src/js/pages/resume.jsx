@@ -1,16 +1,14 @@
-"use strict";
-
 import React from 'react';
-const Nav = require('./../components/nav.jsx');
-const Footer = require('./../components/footer.jsx');
+import Nav from './../components/nav.jsx';
+import Footer from './../components/footer.jsx';
 
-const Resume = React.createClass({
+class Resume extends React.PureComponent {
 
-    print: function () {
+    print() {
         window.print();
-    },
+    }
 
-    render: function () {
+    render() {
         return (
             <div>
                 <Nav />
@@ -105,6 +103,6 @@ const Resume = React.createClass({
             </div>
         );
     }
-});
+};
 
-module.exports = Resume;
+export default Resume;
