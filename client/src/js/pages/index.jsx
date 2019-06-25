@@ -13,7 +13,7 @@ const Index = React.createClass({
                     <div>
                         <div className="image"></div>
                         <div className="summary">
-                            Hi! My name is Anastasia and I am a character animator currently live in New York City area. I recently completed the classic Animation Mentor course. I'm passionate about animation and illustration and want to share with you some of my works.
+                            Hi! My name is Anastasia and I am a character animator. I'm passionate about animation and illustration and want to share with you some of my works.
                         </div>
                         <h3>Demo reel</h3>
                         <div className="video">
