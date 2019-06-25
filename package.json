@@ -4,6 +4,7 @@
   "description": "Nastia legacy website",
   "main": "index.js",
   "scripts": {
+    "build": "npm run clean && grunt client",
     "clean": "rm -rf ./public/dist ./client/dist",
     "dev": "npm run clean && grunt client && grunt concurrent:dev",
     "start": "node --harmony app.js",
